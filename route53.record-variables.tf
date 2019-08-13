@@ -1,7 +1,18 @@
 
-### ####################### ###
-### [[variable]] in_ingress ###
-### ####################### ###
+### ########################## ###
+### [[variable]] in_zone_names ###
+### ########################## ###
+
+variable in_zone_names {
+
+    description = "A list of Route53 hosted zone names that match up to the DNS names list."
+    type        = "list"
+}
+
+
+### ######################### ###
+### [[variable]] in_dns_names ###
+### ######################### ###
 
 variable in_dns_names {
 
