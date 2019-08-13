@@ -1,5 +1,5 @@
 
-# Marrying Route53 Namesw | Terraform Module
+# Marrying DNS Names | Route53 Terraform Module
 
 Like a priest uniting a line of brides and a line of grooms in holy matrimony, this module brings together a list of dns names with a list of (url) names.
 
